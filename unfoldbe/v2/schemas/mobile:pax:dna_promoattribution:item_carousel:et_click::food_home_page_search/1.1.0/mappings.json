@@ -1,0 +1,35 @@
+{
+    "tenantID": "00000000-0000-0000-0000-000000000000",
+    "env": "stg",
+    "className": "FoodHomeSearchClick",
+    "eventKey": "mobile:pax:dna_promoattribution:item_carousel:et_click::food_home_page_search",
+    "eventName": "pax.track.dna_promoattribution.ITEM_CAROUSEL.ET_CLICK",
+    "scope": "pax.track.dna_promoattribution",
+    "stateName": "food_home_page.search",
+    "eventStatus": "Certified",
+    "channel": "mobile",
+    "appType": "pax",
+    "schemaName": "mobile:pax:dna_promoattribution:item_carousel:et_click::food_home_page_search",
+    "schemaVersion": "1.1.0",
+    "schemaStatus": "publish",
+    "mappings": [
+      {
+        "fieldName": "eventSource",
+        "parameterName": "offer_event_source",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "eventType",
+        "parameterName": "offer_event_type",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "STATE_NAME",
+        "parameterName": "state_name",
+        "dataType": "string",
+        "definedBy": "user"
+      }
+    ]
+  }
