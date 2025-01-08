@@ -28,7 +28,7 @@
       {
         "fieldName": "STATE_NAME",
         "parameterName": "state_name",
-        "dataType": "string",
+        "dataType": "array<string>",
         "definedBy": "user"
       }
     ]

@@ -22,13 +22,13 @@
       {
         "fieldName": "eventType",
         "parameterName": "offer_event_type",
-        "dataType": "string",
+        "dataType": "float",
         "definedBy": "user"
       },
       {
         "fieldName": "STATE_NAME",
         "parameterName": "state_name",
-        "dataType": "string",
+        "dataType": "array<integer>",
         "definedBy": "user"
       }
     ]

@@ -16,7 +16,7 @@
     {
       "fieldName": "eventSource",
       "parameterName": "offer_event_source",
-      "dataType": "string",
+      "dataType": "array<boolean>",
       "definedBy": "user"
     },
     {
@@ -28,7 +28,7 @@
     {
       "fieldName": "STATE_NAME",
       "parameterName": "state_name",
-      "dataType": "string",
+      "dataType": "boolean",
       "definedBy": "user"
     }
   ]
