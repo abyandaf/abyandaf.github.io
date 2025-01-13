@@ -1,0 +1,120 @@
+{
+  "tenantID": "00000000-0000-0000-0000-000000000000",
+  "env": "stg",
+  "className": "NKMeasuresNetworkCalls",
+  "eventKey": "mobile--pax--nk--measures--network_calls",
+  "eventName": "pax.track.nk.measures.network_calls",
+  "scope": "pax.track.nk",
+  "stateName": "none",
+  "eventStatus": "Certified",
+  "channel": "mobile",
+  "appType": "pax",
+  "schemaName": "mobile--pax--nk--measures--network_calls",
+  "schemaVersion": "1.3.0",
+  "schemaStatus": "publish",
+  "mappings": [
+    {
+      "fieldName": "baseUrl",
+      "parameterName": "nwbu",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "responsePayloadSize",
+      "parameterName": "nwrss",
+      "dataType": "integer",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "scope",
+      "parameterName": "scope",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "retryCount",
+      "parameterName": "nwrc",
+      "dataType": "int",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "statusCode",
+      "parameterName": "nwsc",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "contentType",
+      "parameterName": "nwrct",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "flowSourceName",
+      "parameterName": "nwsrc",
+      "dataType": "string",
+      "definedBy": "user",
+      "isMandatory": true
+    },
+    {
+      "fieldName": "requestPayloadHash",
+      "parameterName": "nwrqh",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "errorMessage",
+      "parameterName": "nwem",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "requestDuration",
+      "parameterName": "nwrd",
+      "dataType": "integer",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "requestTime",
+      "parameterName": "nwrqt",
+      "dataType": "integer",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "responsePayloadHash",
+      "parameterName": "nwrsh",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "httpMethod",
+      "parameterName": "nwhp",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "urlParams",
+      "parameterName": "nwup",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "requestPayloadSize",
+      "parameterName": "nwrqs",
+      "dataType": "integer",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "configTag",
+      "parameterName": "nwct",
+      "dataType": "string",
+      "definedBy": "user"
+    },
+    {
+      "fieldName": "sourceName",
+      "parameterName": "flow_source_name",
+      "dataType": "string",
+      "definedBy": "user"
+    }
+  ]
+}
