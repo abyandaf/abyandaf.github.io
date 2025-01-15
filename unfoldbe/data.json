@@ -1,103 +1,109 @@
 {
-    "event": {
-      "tenantID": "00000000-0000-0000-0000-000000000000",
-      "env": "stg",
-      "eventKey": "mobile:pax:nk:measures:network_calls",
-      "eventName": "pax.track.nk.measures.network_calls",
-      "scope": "pax.track.nk",
-      "eventStatus": "Certified",
-      "channel": "mobile",
-      "appType": "pax",
-      "schemaName": "mobile:pax:nk:measures:network_calls",
-      "schemaVersion": "[1, 3, 0]",
-      "schemaStatus": "publish",
-      "className": "NkMeasuresNetworkCalls",
-      "mappings": [
-        {
-          "fieldName": "nwrss",
-          "parameterName": "response_payload_size",
-          "dataType": "integer",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwrc",
-          "parameterName": "retry_count",
-          "dataType": "integer",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwsc",
-          "parameterName": "status_code",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwem",
-          "parameterName": "error_message",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwrqh",
-          "parameterName": "request_payload_hash",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwrd",
-          "parameterName": "request_duration",
-          "dataType": "integer",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwrqt",
-          "parameterName": "request_time",
-          "dataType": "integer",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwrsh",
-          "parameterName": "response_payload_hash",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwhp",
-          "parameterName": "http_method",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwrct",
-          "parameterName": "content_type",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "flow_source_name",
-          "isMandatory": true,
-          "parameterName": "flow_source_name",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwup",
-          "parameterName": "url_params",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwrqs",
-          "parameterName": "request_payload_size",
-          "dataType": "integer",
-          "definedBy": "user"
-        },
-        {
-          "fieldName": "nwct",
-          "parameterName": "config_tag",
-          "dataType": "string",
-          "definedBy": "user"
-        }
-      ]
-    }
+  "event": {
+    "tenantID": "00000000-0000-0000-0000-000000000000",
+    "env": "stg",
+    "eventKey": "mobile:pax:nk:measures:network_calls",
+    "eventName": "pax.track.nk.measures.network_calls",
+    "scope": "pax.track.nk",
+    "eventStatus": "Certified",
+    "channel": "mobile",
+    "appType": "pax",
+    "schemaName": "mobile:pax:nk:measures:network_calls",
+    "schemaVersion": "[1, 3, 0]",
+    "schemaStatus": "publish",
+    "className": "NkMeasuresNetworkCalls",
+    "mappings": [
+      {
+        "fieldName": "nwbu",
+        "parameterName": "lb_url",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrss",
+        "parameterName": "response_payload_size",
+        "dataType": "integer",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrc",
+        "parameterName": "retry_count",
+        "dataType": "integer",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwsc",
+        "parameterName": "status_code",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwem",
+        "parameterName": "error_message",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrqh",
+        "parameterName": "request_payload_hash",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrd",
+        "parameterName": "request_duration",
+        "dataType": "integer",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrqt",
+        "parameterName": "request_time",
+        "dataType": "integer",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrsh",
+        "parameterName": "response_payload_hash",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwhp",
+        "parameterName": "http_method",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrct",
+        "parameterName": "content_type",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "flow_source_name",
+        "isMandatory": true,
+        "parameterName": "flow_source_name",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwup",
+        "parameterName": "url_params",
+        "dataType": "string",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwrqs",
+        "parameterName": "request_payload_size",
+        "dataType": "integer",
+        "definedBy": "user"
+      },
+      {
+        "fieldName": "nwct",
+        "parameterName": "config_tag",
+        "dataType": "string",
+        "definedBy": "user"
+      }
+    ]
   }
+}
