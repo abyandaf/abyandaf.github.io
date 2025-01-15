@@ -20,12 +20,6 @@
           "definedBy": "user"
         },
         {
-          "fieldName": "nwsrc",
-          "parameterName": "flow_source_name",
-          "dataType": "string",
-          "definedBy": "user"
-        },
-        {
           "fieldName": "nwrc",
           "parameterName": "retry_count",
           "dataType": "integer",
